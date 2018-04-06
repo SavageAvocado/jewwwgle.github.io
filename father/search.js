@@ -6,4 +6,5 @@ function search() {
 }
 
 function jewSearch() {
+  window.location = "https://www.ushmm.org/wlc/en/article.php?ModuelId=10005144";
 }
