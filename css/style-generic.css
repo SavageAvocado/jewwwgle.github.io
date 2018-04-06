@@ -6,3 +6,9 @@
 #footer {
   background-color: #f2f4f7;
 }
+
+#search {
+  background-color: #f2f4f7;
+  border-style: none;
+  font-weight: bold;
+}
