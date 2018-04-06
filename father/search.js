@@ -2,7 +2,9 @@ var query;
 
 function search() {
   this.query = document.getElementById("searchbar").value;
-  window.location = "https://www.google.com/search?q=" + this.query;
+  
+  if (this.query != "" && this.query != null)
+    window.location = "https://www.google.com/search?q=" + this.query;
 }
 
 function jewSearch() {
