@@ -6,8 +6,8 @@ function search() {
   if (this.query != "" && this.query != null)
     if (this.query.toUpperCase() == "JOE FLEMMING" || this.query.toUpperCase() == "JOEFLEMMING")
         window.location = "https://en.wikipedia.org/wiki/Black_Hebrew_Israelites";
-
-    window.location = "https://www.google.com/search?q=" + this.query;
+    else
+      window.location = "https://www.google.com/search?q=" + this.query;
 }
 
 function jewSearch() {
