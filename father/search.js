@@ -10,6 +10,10 @@ function search() {
         window.location = "https://en.wikipedia.org/wiki/Rhodesia";
     else if (this.query.toUpperCase() == "DAVID ACEVEDO" || this.query.toUpperCase() == "DAVIDACEVEDO" || this.query.toUpperCase() == "DAVE")
         window.location = "http://www.youtube.com/";
+    else if (this.query.toUpperCase() == "ROBERT HASSAJ" || this.query.toUpperCase() == "ROBERTHASSAJ" || this.query.toUpperCase() == "HASSAJ")
+        window.location = "https://www.youtube.com/watch?v=OT4MyqrWo6E";
+    else if (this.query.toUpperCase() == "" || this.query.toUpperCase() == "" || this.query.toUpperCase() == "")
+        window.location = "";
     else
       window.location = "https://www.google.com/search?q=" + this.query;
 }
