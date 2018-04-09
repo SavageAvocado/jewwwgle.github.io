@@ -20,3 +20,17 @@
   border-style: none;
   font-weight: bold;
 }
+
+#search-button:hover {
+  padding: 5px 10px 5px 10px;
+  background-color: #000000;
+  border-style: solid;
+  font-weight: bold;
+}
+
+#feeling-lucky:hover {
+  padding: 5px 10px 5px 10px;
+  background-color: #000000;
+  border-style: solid;
+  font-weight: bold;
+}
