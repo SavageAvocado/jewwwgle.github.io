@@ -3,6 +3,10 @@
   margin: 0px;
 }
 
+ul {
+  display: inline-block;
+}
+
 #footer {
   background-color: #f2f4f7;
 }
