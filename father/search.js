@@ -9,7 +9,7 @@ function search() {
     else if (this.query.toUpperCase() == "MATTHEW NEMETH" || this.query.toUpperCase() == "MATTHEWNEMETH" || this.query.toUpperCase() == "NEMETH")
         window.location = "https://en.wikipedia.org/wiki/Rhodesia";
     else if (this.query.toUpperCase() == "DAVID ACEVEDO" || this.query.toUpperCase() == "DAVIDACEVEDO" || this.query.toUpperCase() == "DAVE")
-        window.location = "";
+        window.location = "http://www.youtube.com/";
     else
       window.location = "https://www.google.com/search?q=" + this.query;
 }
