@@ -1,6 +1,9 @@
 var query;
 
-function search() {
+function search(e) {
+  if (e.keyCode != 13)
+    return;
+  
   this.query = document.getElementById("searchbar").value;
   
   if (this.query != "" && this.query != null)
