@@ -19,7 +19,8 @@ ul {
 }
 
 #searchbar {
-  border: medium none;
+  height: 44px;
+  width: 584px;
 }
 
 #search-button {
