@@ -24,7 +24,6 @@ ul {
   margin-top: 50px;
   height: 44px;
   width: 589px;
-  bottom: 0px;
 }
 
 #searchbar-container:hover {
@@ -33,13 +32,13 @@ ul {
   margin-top: 50px;
   height: 44px;
   width: 589px;
-  bottom: 0px;
 }
 
 #searchbar {
   border-style: none;
   height: 34px;
   width: 559px;
+  bottom: 0px;
 }
 
 #search-button {
