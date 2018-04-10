@@ -18,6 +18,10 @@ ul {
   bottom: 0px;
 }
 
+#searchbar {
+  border: medium none;
+}
+
 #search-button {
   padding: 5px 10px 5px 10px;
   background-color: #f2f4f7;
