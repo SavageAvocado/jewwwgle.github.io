@@ -7,10 +7,15 @@ ul {
   display: inline-block;
 }
 
+#header {
+  width: 100%;
+}
+
 #footer {
   background-color: #f2f4f7;
   text-align: bottom;
   position: fixed;
+  width: 100%;
 }
 
 #search-button {
