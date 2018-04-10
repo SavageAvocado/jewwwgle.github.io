@@ -10,7 +10,7 @@ ul {
 #footer {
   background-color: #f2f4f7;
   text-align: bottom;
-  position: absolute;
+  position: fixed;
 }
 
 #search-button {
