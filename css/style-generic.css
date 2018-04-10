@@ -24,6 +24,7 @@ ul {
   border-style: solid;
   height: 44px;
   width: 589px;
+  bottom: 0px;
 }
 
 #searchbar {
