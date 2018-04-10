@@ -13,9 +13,9 @@ ul {
 
 #footer {
   background-color: #f2f4f7;
-  text-align: bottom;
   position: fixed;
   width: 100%;
+  bottom: 0px;
 }
 
 #search-button {
