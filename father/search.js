@@ -14,6 +14,8 @@ function search() {
         window.location = "https://www.youtube.com/watch?v=OT4MyqrWo6E";
     else if (this.query.toUpperCase() == "VINCENT SIMONCELLI" || this.query.toUpperCase() == "VINCENT SIMONCELLI" || this.query.toUpperCase() == "VINCENT")
         window.location = "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/2/4/1/RX-FNM_030111-Lighten-Up-012_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382539856907.jpeg";
+    else if (this.query.toUpperCase() == "DAVID HOLLEY" || this.query.toUpperCase() == "DAVIDHOLLEY" || this.query.toUpperCase() == "DAVID")
+        window.location = "https://www.hitler.org";
     else
       window.location = "https://www.google.com/search?q=" + this.query;
 }
