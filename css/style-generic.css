@@ -26,6 +26,14 @@ ul {
   bottom: 0px;
 }
 
+#searchbar-container:hover {
+  box-shadow: 0 0 6px #ccc;
+  border-radius: 3px;
+  height: 44px;
+  width: 589px;
+  bottom: 0px;
+}
+
 #searchbar {
   border-style: none;
   height: 34px;
