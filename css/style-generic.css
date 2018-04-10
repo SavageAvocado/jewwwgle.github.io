@@ -60,7 +60,8 @@ ul {
 }
 
 #search-button:hover {
-  padding: 5px 10px 5px 10px;
+  padding: 2px 7px 2px 7px;
+  border-width: 3px;
   border-style: solid;
   border-radius: 3px;
   font-weight: bold;
@@ -68,7 +69,8 @@ ul {
 }
 
 #feeling-lucky:hover {
-  padding: 5px 10px 5px 10px;
+  padding: 2px 7px 2px 7px;
+  border-width: 3px;
   border-style: solid;
   border-radius: 3px;
   font-weight: bold;
