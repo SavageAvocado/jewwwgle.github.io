@@ -19,7 +19,7 @@ ul {
 }
 
 #searchbar-container {
-  box-shadow: 10px 10px 5px #A9A9A9;
+  box-shadow: 0 0 3px #ccc;
   border-radius: 3px;
   border-style: solid;
   height: 44px;
