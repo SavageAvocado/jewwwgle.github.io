@@ -6,6 +6,8 @@
 
 a {
   text-decoration: none;
+  padding: 0px 10px;
+  font-size: 13px;
   color: #9b9b9b;
 }
 
@@ -104,10 +106,12 @@ li {
 }
 
 .jewgle-thing {
+  color: #000;
   float: left;
 }
 
 .account {
+  color: #000;
   float: right;
 }
 
