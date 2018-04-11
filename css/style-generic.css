@@ -38,6 +38,10 @@ li {
   bottom: 0px;
 }
 
+#jewgle-logo {
+  margin-top: 35%;
+}
+
 #searchbar-container {
   box-shadow: 0 0 3px #ccc;
   border-radius: 3px;
