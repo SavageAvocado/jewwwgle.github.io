@@ -59,6 +59,7 @@ li {
 
 #searchbar {
   border-style: none;
+  position: fixed;
   height: 34px;
   width: 559px;
   bottom: 0px;
