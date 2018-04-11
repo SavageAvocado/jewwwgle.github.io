@@ -9,6 +9,11 @@ a {
   color: #9b9b9b;
 }
 
+a:hover {
+  text-decoration: underline;
+  color: #9b9b9b;
+}
+
 li {
   display: inline;
 }
