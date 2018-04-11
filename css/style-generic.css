@@ -19,6 +19,7 @@ li {
 }
 
 #jewtube-logo {
+  margin-top: 35%;
   height: 25px;
   width: 58px;
 }
@@ -35,10 +36,6 @@ li {
   padding: 6px 0px;
   width: 100%;
   bottom: 0px;
-}
-
-#jewgle-logo {
-  margin-top: 35%;
 }
 
 #searchbar-container {
