@@ -24,7 +24,9 @@ li {
 
 #footer {
   background-color: #f2f4f7;
+  border-top: 1px solid;
   position: fixed;
+  padding: 6px;
   width: 100%;
   bottom: 0px;
 }
