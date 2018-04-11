@@ -30,3 +30,7 @@ function searchEnter(e) {
 function jewSearch() {
   window.location = "https://www.ushmm.org/wlc/en/article.php?ModuelId=10005144";
 }
+
+function focus() {
+  document.getElementById("searchbar").focus();
+}
