@@ -99,3 +99,19 @@ li {
   font-weight: bold;
   color: #000000;
 }
+
+.jewgle-thing {
+  float: left;
+}
+
+.account {
+  float: right;
+}
+
+.business {
+  float: left;
+}
+
+.options {
+  float: right;
+}
