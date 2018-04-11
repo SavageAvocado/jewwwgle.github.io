@@ -1,6 +1,6 @@
 var query;
 
-function search(e) {
+function search() {
   this.query = document.getElementById("searchbar").value;
   
   if (this.query != "" && this.query != null)
