@@ -3,6 +3,11 @@
   margin: 0px;
 }
 
+a {
+  text-decoration: none;
+  color: #9b9b9b;
+}
+
 li {
   display: inline;
 }
