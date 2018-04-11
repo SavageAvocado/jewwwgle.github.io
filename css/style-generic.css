@@ -23,8 +23,8 @@ li {
 }
 
 #footer {
+  border-top: 1px solid #9b9b9b;
   background-color: #f2f4f7;
-  border-top: 1px solid;
   position: fixed;
   padding: 6px;
   width: 100%;
