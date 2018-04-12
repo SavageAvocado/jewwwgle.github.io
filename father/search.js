@@ -36,3 +36,5 @@ function jewSearch() {
 function focus() {
   document.getElementById("searchbar").focus();
 }
+
+this.focus();
