@@ -70,7 +70,7 @@ li {
 }
 
 #search-button {
-  margin-top: 7px;
+  margin-top: 20px;
   height: 36px;
   padding: 1px 16px;
   background-color: #f2f4f7;
@@ -81,7 +81,7 @@ li {
 }
 
 #feeling-lucky {
-  margin-top: 7px;
+  margin-top: 20px;
   height: 36px;
   padding: 1px 16px;
   background-color: #f2f4f7;
@@ -92,7 +92,7 @@ li {
 }
 
 #search-button:hover {
-  margin-top: 7px;
+  margin-top: 20px;
   height: 36px;
   padding: 0px 15px;
   border-width: 1px;
@@ -103,7 +103,7 @@ li {
 }
 
 #feeling-lucky:hover {
-  margin-top: 7px;
+  margin-top: 20px;
   height: 36px;
   padding: 0px 15px;
   border-width: 1px;
