@@ -25,6 +25,11 @@ li {
   width: 58px;
 }
 
+#jewtube-logo:hover {
+  height: 28px;
+  width: 61px;
+}
+
 #header {
   width: 100%;
   padding: 17px 0px;
