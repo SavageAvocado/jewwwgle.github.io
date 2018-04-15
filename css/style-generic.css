@@ -45,6 +45,7 @@ li {
 }
 
 #searchbar-container {
+  display: inline-block;
   box-shadow: 0 0 3px #ccc;
   border-radius: 3px;
   margin-top: 50px;
@@ -53,6 +54,7 @@ li {
 }
 
 #searchbar-container:hover {
+  display: inline-block;
   box-shadow: 0 0 6px #ccc;
   border-radius: 3px;
   margin-top: 50px;
