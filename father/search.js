@@ -1,3 +1,5 @@
+var translations = {"a": "א", "b": ".ב", "c": "8==D", "d": "ד", "e": "ה", "f": "ו", "g": "ז", "h": "ח", "i": "אני", "j": "י", "k": "k", "l": "l", "m": "M", "n": "n", "o": "או", "p": "עמ '", "q": "q", "r": "ייצור", "s": "s", "t": "t", "u": "u", "v": "v", "w": "w", "x": "איקס", "y": "ו", "z": "מ"};
+var translate = false;
 var query;
 
 function search() {
@@ -29,8 +31,19 @@ function searchEnter(e) {
   this.search();
 }
 
-function jewSearch() {
-  window.location = "https://www.ushmm.org/wlc/en/article.php?ModuelId=10005144";
+function fixText(e) {
+  if (!this.translate)
+    return;
+	
+  if (String.fromCharCode(e.which).toLowerCase() in this.translations) {
+	  e.preventDefault();
+    document.getElementById("searchbar").value += this.translations[String.fromCharCode(e.which).toLowerCase()];
+  }
+}
+
+function toggleTranslate() {
+  this.translate = !this.translate;
+  document.getElementById("searchbar").style.textAlign = this.translate ? "right" : "left";
 }
 
 function focus() {
