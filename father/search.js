@@ -25,6 +25,8 @@ function search() {
 }
 
 function searchEnter(e) {
+  this.fixText(e);
+	
   if (e.keyCode != 13)
     return;
   
