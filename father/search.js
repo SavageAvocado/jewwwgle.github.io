@@ -52,13 +52,20 @@ function fixText(e) {
 function toggleTranslate() {
   this.translate = !this.translate;
   document.getElementById("searchbar").style.textAlign = this.translate ? "right" : "left";
-  
-  for (var key in this.translations) {
-    document.getElementById("searchbar").value = document.getElementById("searchbar").value.replace(key, this.translations[key]);
-  }
 	
-  if (this.translate)
+  if (this.translate) {
     alert("Yes, I know translations are fucked. There's still a lot that has to be fixed.");
+		
+		this.query = document.getElementById("searchbar").value;
+		
+		for (var key in this.translations) {
+    	document.getElementById("searchbar").value = document.getElementById("searchbar").value.replace(key, this.translations[key]);
+  	}
+	} else {
+		for (var key in this.translations) {
+    	document.getElementById("searchbar").value = document.getElementById("searchbar").value.replace(this.translations[key], key);
+  	}
+	}
 }
 
 function focus() {
