@@ -1,9 +1,9 @@
 var translations = {"a": "א", "b": ".ב", "c": "8==D", "d": "ד", "e": "ה", "f": "ו", "g": "ז", "h": "ח", "i": "אני", "j": "י", "k": "k", "l": "l", "m": "M", "n": "n", "o": "או", "p": "עמ '", "q": "q", "r": "ייצור", "s": "s", "t": "t", "u": "u", "v": "v", "w": "w", "x": "איקס", "y": "ו", "z": "מ"};
 var translate = false;
-var query = "dfrtrhetih78uop9oi--_-ti9regfmdg+==9tuerjm[]{}}}[[]454";
+var query;
 
 function search() {
-  if (this.query == "dfrtrhetih78uop9oi--_-ti9regfmdg+==9tuerjm[]{}}}[[]454")
+  if (this.query == "" && this.query == null)
     this.query = document.getElementById("searchbar").value;
   
   if (this.query != "" && this.query != null)
@@ -38,7 +38,7 @@ function fixText(e) {
   if (!this.translate)
     return;
 	
-  if (this.query == "dfrtrhetih78uop9oi--_-ti9regfmdg+==9tuerjm[]{}}}[[]454")
+  if (this.query == "" && this.query == null)
     this.query = String.fromCharCode(e.which);
   else
     this.query += String.fromCharCode(e.which);
