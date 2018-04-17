@@ -46,7 +46,9 @@ function fixText(e) {
 function toggleTranslate() {
   this.translate = !this.translate;
   document.getElementById("searchbar").style.textAlign = this.translate ? "right" : "left";
-  alert("Yes, I know translations are fucked. There's still a lot that has to be fixed.");
+  
+  if (this.translate)
+    alert("Yes, I know translations are fucked. There's still a lot that has to be fixed.");
 }
 
 function focus() {
