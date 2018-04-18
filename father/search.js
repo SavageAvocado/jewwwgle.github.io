@@ -3,7 +3,7 @@ var translate = false;
 var query;
 
 function search() {
-  if (this.query == undefined || this.query == "" || this.query == null)
+  if (this.query == undefined)
     this.query = document.getElementById("searchbar").value;
   
   if (this.query != "" && this.query != null)
@@ -36,7 +36,7 @@ function searchEnter(e) {
 }
 
 function updateQuery(e) {
-  if (this.query == undefined || this.query == "" || this.query == null)
+  if (this.query == undefined)
     this.query = String.fromCharCode(e.which);
   else
     this.query += String.fromCharCode(e.which);
