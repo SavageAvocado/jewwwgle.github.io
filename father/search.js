@@ -35,7 +35,7 @@ function searchEnter(e) {
   this.search();
 }
 
-function updateQuery() {
+function updateQuery(e) {
   if (this.query == "" && this.query == null)
     this.query = String.fromCharCode(e.which);
   else
