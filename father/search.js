@@ -26,6 +26,7 @@ function search() {
 }
 
 function searchEnter(e) {
+	this.updateQuery(e);
   this.fixText(e);
 	
   if (e.keyCode != 13)
@@ -34,14 +35,16 @@ function searchEnter(e) {
   this.search();
 }
 
-function fixText(e) {
-  if (!this.translate)
-    return;
-	
+function updateQuery() {
   if (this.query == "" && this.query == null)
     this.query = String.fromCharCode(e.which);
   else
     this.query += String.fromCharCode(e.which);
+}
+
+function fixText(e) {
+  if (!this.translate)
+    return;
 	
   if (String.fromCharCode(e.which).toLowerCase() in this.translations) {
     e.preventDefault();
@@ -63,7 +66,7 @@ function toggleTranslate() {
   	}
 	} else {
 		for (var key in this.translations) {
-    	document.getElementById("searchbar").value = document.getElementById("searchbar").value.replace(this.translations[key], key);
+    	document.getElementById("searchbar").value = this.query;
   	}
 	}
 }
