@@ -70,6 +70,7 @@ li {
 #searchbar {
   border-style: none;
   padding-top: 10px;
+  outline: none;
   height: 34px;
   width: 559px;
 }
@@ -83,6 +84,7 @@ li {
   border-style: none;
   font-weight: bold;
   color: #9b9b9b;
+  outline: none;
 }
 
 #feeling-lucky {
@@ -94,6 +96,7 @@ li {
   border-style: none;
   font-weight: bold;
   color: #9b9b9b;
+  outline: none;
 }
 
 #search-button:hover {
@@ -105,6 +108,7 @@ li {
   border-radius: 3px;
   font-weight: bold;
   color: #000000;
+  outline: none;
 }
 
 #feeling-lucky:hover {
@@ -116,6 +120,7 @@ li {
   border-radius: 3px;
   font-weight: bold;
   color: #000000;
+  outline: none;
 }
 
 .jewgle-thing {
