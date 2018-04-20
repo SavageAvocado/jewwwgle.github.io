@@ -21,6 +21,8 @@ function search() {
         window.location = "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/2/4/1/RX-FNM_030111-Lighten-Up-012_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382539856907.jpeg";
     else if (this.query.toUpperCase() == "DAVID HOLLEY" || this.query.toUpperCase() == "DAVIDHOLLEY" || this.query.toUpperCase() == "DAVID")
         window.location = "http://www.hitler.org";
+		else if (this.query.toUpperCase() == "LIL PIMP" || this.query.toUpperCase() == "LILPIMP" || this.query.toUpperCase() == "LILP")
+        window.location = "http://www.jewgle.gq/lil-pimp/";
     else
       window.location = "https://www.google.com/search?q=" + this.query;
 }
