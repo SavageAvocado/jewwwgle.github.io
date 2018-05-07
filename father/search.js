@@ -6,7 +6,7 @@ function search() {
   if (this.query == undefined)
     this.query = document.getElementById("searchbar").value;
   
-  if (this.query != "" && this.query != null)
+  if (this.query != undefined)
     if (this.query.toUpperCase() == "JOE FLEMMING" || this.query.toUpperCase() == "JOEFLEMMING" || this.query.toUpperCase() == "JOE")
         window.location = "https://en.wikipedia.org/wiki/Black_Hebrew_Israelites";
     else if (this.query.toUpperCase() == "AVOCADO")
