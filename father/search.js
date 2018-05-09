@@ -28,7 +28,7 @@ function search() {
 }
 
 function searchEnter(e) {
-	this.updateQuery(e);
+  //this.updateQuery(e);
   this.fixText(e);
 	
   if (e.keyCode != 13)
@@ -37,12 +37,12 @@ function searchEnter(e) {
   this.search();
 }
 
-function updateQuery(e) {
-  if (this.query == undefined)
-    this.query = String.fromCharCode(e.which);
-  else
-    this.query += String.fromCharCode(e.which);
-}
+//function updateQuery(e) {
+  //if (this.query == undefined)
+    //this.query = String.fromCharCode(e.which);
+  //else
+    //this.query += String.fromCharCode(e.which);
+//}
 
 function fixText(e) {
   if (!this.translate)
@@ -60,17 +60,17 @@ function toggleTranslate() {
 	
   if (this.translate) {
     alert("Yes, I know translations are fucked. There's still a lot that has to be fixed.");
+	  
+    this.query = document.getElementById("searchbar").value;
 		
-		this.query = document.getElementById("searchbar").value;
-		
-		for (var key in this.translations) {
-    	document.getElementById("searchbar").value = document.getElementById("searchbar").value.replace(key, this.translations[key]);
-  	}
-	} else {
-		for (var key in this.translations) {
-    	document.getElementById("searchbar").value = this.query;
-  	}
-	}
+    for (var key in this.translations) {
+      document.getElementById("searchbar").value = document.getElementById("searchbar").value.replace(key, this.translations[key]);
+    }
+  } else {
+    for (var key in this.translations) {
+      document.getElementById("searchbar").value = this.query;
+    }
+  }
 }
 
 function focus() {
