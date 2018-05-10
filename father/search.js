@@ -25,8 +25,8 @@ function search() {
         window.location = "https://www.jewgle.gq/lil-pimp/";
     else if (this.query.toUpperCase() == "CORNHUB" || this.query.toUpperCase() == "CORNHUBS" || this.query.toUpperCase() == "CORN HUB" || this.query.toUpperCase() == "CORN HUBS")
         window.location = "https://www.cornhubs.gq/";
-		else if (this.query.toUpperCase() == "DYLAN" || this.query.toUpperCase() == "DYLANB")
-				window.location = "https://78.media.tumblr.com/5d5150256d48e52d91afc9751b06aee7/tumblr_inline_odel59d4Lv1tv6i56_540.png";
+
+				
 		else
       window.location = "https://www.google.com/search?q=" + this.query;
 }
