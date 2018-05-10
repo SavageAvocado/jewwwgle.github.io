@@ -23,7 +23,7 @@ function search() {
         window.location = "http://www.hitler.org";
 		else if (this.query.toUpperCase() == "LIL PIMP" || this.query.toUpperCase() == "LILPIMP" || this.query.toUpperCase() == "LILP")
         window.location = "https://www.jewgle.gq/lil-pimp/";
-    else if (this.query.toUpperCase() == "CORNHUB" || this.query.toUpperCase() == "CORNHUBS" || this.query.toUpperCase() == "CORN HUB" || this.query.toUpperCase() == "CORNHUBS")
+    else if (this.query.toUpperCase() == "CORNHUB" || this.query.toUpperCase() == "CORNHUBS" || this.query.toUpperCase() == "CORN HUB" || this.query.toUpperCase() == "CORN HUBS")
         window.location = "https://www.cornhubs.gq/";
 		else
       window.location = "https://www.google.com/search?q=" + this.query;
