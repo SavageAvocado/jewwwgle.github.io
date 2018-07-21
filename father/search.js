@@ -3,32 +3,57 @@ var translate = false;
 var query;
 
 function search() {
-  if (this.query == undefined)
-    this.query = document.getElementById("searchbar").value;
-  
-  if (this.query != undefined)
-    if (this.query.toUpperCase() == "JOE FLEMMING" || this.query.toUpperCase() == "JOEFLEMMING" || this.query.toUpperCase() == "JOE")
-        window.location = "https://en.wikipedia.org/wiki/Black_Hebrew_Israelites";
-    else if (this.query.toUpperCase() == "AVOCADO")
-        window.location = "https://www.jewgle.gq/imates/avocado.jpg";
-    else if (this.query.toUpperCase() == "MATTHEW NEMETH" || this.query.toUpperCase() == "MATTHEWNEMETH" || this.query.toUpperCase() == "NEMETH")
-        window.location = "https://en.wikipedia.org/wiki/Rhodesia";
-    else if (this.query.toUpperCase() == "DAVID ACEVEDO" || this.query.toUpperCase() == "DAVIDACEVEDO" || this.query.toUpperCase() == "DAVE")
-        window.location = "https://www.youtube.com/";
-    else if (this.query.toUpperCase() == "ROBERT HASSAJ" || this.query.toUpperCase() == "ROBERTHASSAJ" || this.query.toUpperCase() == "HASSAJ")
-        window.location = "https://www.youtube.com/watch?v=OT4MyqrWo6E";
-    else if (this.query.toUpperCase() == "VINCENT SIMONCELLI" || this.query.toUpperCase() == "VINCENT SIMONCELLI" || this.query.toUpperCase() == "VINCENT")
-        window.location = "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/2/4/1/RX-FNM_030111-Lighten-Up-012_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382539856907.jpeg";
-    else if (this.query.toUpperCase() == "DAVID HOLLEY" || this.query.toUpperCase() == "DAVIDHOLLEY" || this.query.toUpperCase() == "DAVID")
-        window.location = "http://www.hitler.org";
-		else if (this.query.toUpperCase() == "LIL PIMP" || this.query.toUpperCase() == "LILPIMP" || this.query.toUpperCase() == "LILP")
-        window.location = "https://www.jewgle.gq/lil-pimp/";
-    else if (this.query.toUpperCase() == "CORNHUB" || this.query.toUpperCase() == "CORNHUBS" || this.query.toUpperCase() == "CORN HUB" || this.query.toUpperCase() == "CORN HUBS")
-        window.location = "https://www.cornhubs.gq/";
-
-				
-		else
-      window.location = "https://www.google.com/search?q=" + this.query;
+  if (document.getElementById("searchbar").value == undefined || document.getElementById("searchbar").value.replace(" ", "") == "")
+		return;
+	
+  this.query = document.getElementById("searchbar").value;
+		
+  if (this.query.toUpperCase() == "JOE FLEMMING" || this.query.toUpperCase() == "JOEFLEMMING" || this.query.toUpperCase() == "JOE") {
+    window.location = "https://en.wikipedia.org/wiki/Black_Hebrew_Israelites";
+		return;
+	}
+	
+  if (this.query.toUpperCase() == "AVOCADO") {
+    window.location = "https://www.jewgle.gq/imates/avocado.jpg";
+		return;
+	}
+	
+  if (this.query.toUpperCase() == "MATTHEW NEMETH" || this.query.toUpperCase() == "MATTHEWNEMETH" || this.query.toUpperCase() == "NEMETH") {
+    window.location = "https://en.wikipedia.org/wiki/Rhodesia";
+		return;
+	}
+	
+  if (this.query.toUpperCase() == "DAVID ACEVEDO" || this.query.toUpperCase() == "DAVIDACEVEDO" || this.query.toUpperCase() == "DAVE") {
+    window.location = "https://www.youtube.com/";
+		return;
+	}
+	
+  if (this.query.toUpperCase() == "ROBERT HASSAJ" || this.query.toUpperCase() == "ROBERTHASSAJ" || this.query.toUpperCase() == "HASSAJ") {
+    window.location = "https://www.youtube.com/watch?v=OT4MyqrWo6E";
+		return;
+	}
+	
+  if (this.query.toUpperCase() == "VINCENT SIMONCELLI" || this.query.toUpperCase() == "VINCENT SIMONCELLI" || this.query.toUpperCase() == "VINCENT") {
+    window.location = "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/2/4/1/RX-FNM_030111-Lighten-Up-012_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382539856907.jpeg";
+		return;
+	}
+	
+  if (this.query.toUpperCase() == "DAVID HOLLEY" || this.query.toUpperCase() == "DAVIDHOLLEY" || this.query.toUpperCase() == "DAVID") {
+    window.location = "http://www.hitler.org";
+		return;
+	}
+	
+	if (this.query.toUpperCase() == "LIL PIMP" || this.query.toUpperCase() == "LILPIMP" || this.query.toUpperCase() == "LILP") {
+    window.location = "https://www.jewgle.gq/lil-pimp/";
+		return;
+	}
+	
+  if (this.query.toUpperCase() == "CORNHUB" || this.query.toUpperCase() == "CORNHUBS" || this.query.toUpperCase() == "CORN HUB" || this.query.toUpperCase() == "CORN HUBS") {
+    window.location = "https://www.cornhubs.gq/";
+		return;
+	}
+	
+  window.location = "https://www.google.com/search?q=" + this.query.replace(" ", "%20").replace("!", "%21").replace("+", "%2B").replace("#", "%23");
 }
 
 function searchEnter(e) {
