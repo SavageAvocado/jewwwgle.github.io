@@ -88,8 +88,6 @@ function toggleTranslate() {
   document.getElementById("searchbar").style.textAlign = this.translate ? "right" : "left";
 	
   if (this.translate) {
-    alert("Yes, I know translations are fucked. There's still a lot that has to be fixed.");
-	  
     this.query = document.getElementById("searchbar").value;
 		
     for (var key in this.translations) {
