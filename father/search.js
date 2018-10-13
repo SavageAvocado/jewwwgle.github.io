@@ -48,7 +48,7 @@ function search() {
 		return;
 	}
 	
-  if (this.query.toUpperCase() == "CORNHUB" || this.query.toUpperCase() == "CORNHUBS" || this.query.toUpperCase() == "CORN HUB" || this.query.toUpperCase() == "CORN HUBS") {
+  if (this.query.toUpperCase() == "CORN" || this.query.toUpperCase() == "CORNHUB" || this.query.toUpperCase() == "CORNHUBS" || this.query.toUpperCase() == "CORN HUB" || this.query.toUpperCase() == "CORN HUBS") {
     window.location = "https://www.cornhubs.gq/";
 		return;
 	}
