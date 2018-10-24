@@ -18,6 +18,16 @@ function search() {
 		return;
 	}
 	
+  if (this.query.toUpperCase() == "JEWGLE") {
+    window.location = "https://www.jewgle.gq/";
+		return;
+  }
+  
+  if (this.query.toUpperCase() == "GOOGLE") {
+    window.location = "https://www.jewgle.gq/no-google";
+		return;
+  }
+	
   if (this.query.toUpperCase() == "MATTHEW NEMETH" || this.query.toUpperCase() == "MATTHEWNEMETH" || this.query.toUpperCase() == "NEMETH") {
     window.location = "https://en.wikipedia.org/wiki/Rhodesia";
 		return;
