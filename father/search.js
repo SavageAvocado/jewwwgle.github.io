@@ -14,17 +14,17 @@ function search() {
 	}
 	
   if (this.query.toUpperCase() == "AVOCADO") {
-    window.location = "https://www.jewgle.gq/imates/avocado.jpg";
+    window.location = "https://jewgle.savageavocado.net/imates/avocado.jpg";
 		return;
 	}
 	
   if (this.query.toUpperCase() == "JEWGLE") {
-    window.location = "https://www.jewgle.gq/";
+    window.location = "https://jewgle.savageavocado.net/";
 		return;
   }
   
   if (this.query.toUpperCase() == "GOOGLE") {
-    window.location = "https://www.jewgle.gq/no-google";
+    window.location = "https://jewgle.savageavocado.net/no-google";
 		return;
   }
 	
@@ -54,12 +54,12 @@ function search() {
 	}
 	
 	if (this.query.toUpperCase() == "LIL PIMP" || this.query.toUpperCase() == "LILPIMP" || this.query.toUpperCase() == "LILP") {
-    window.location = "https://www.jewgle.gq/lil-pimp/";
+    window.location = "https://jewgle.savageavocado.net/lil-pimp/";
 		return;
 	}
 	
   if (this.query.toUpperCase() == "CORN" || this.query.toUpperCase() == "CORNHUB" || this.query.toUpperCase() == "CORNHUBS" || this.query.toUpperCase() == "CORN HUB" || this.query.toUpperCase() == "CORN HUBS") {
-    window.location = "https://www.cornhubs.gq/";
+    window.location = "https://cornhubs.savageavocado.net/";
 		return;
 	}
 	
